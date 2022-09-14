@@ -15,7 +15,7 @@ export default function Home() {
         setResult(text[0])
       }
     }
-client.open('GET', 'http://cors-anywhere.herokuapp.com/https://www.facebook.com/Profile.NguyenThanhHau', true);
+client.open('GET', '//cors-anywhere.herokuapp.com/https://www.facebook.com/Profile.NguyenThanhHau', true);
 client.send();
     
   }
